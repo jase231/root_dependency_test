@@ -7,4 +7,5 @@ name = "root_dependency_test_jase231"
 version = "0.0.1"
 readme = "README.md"
 license-files = ["LICENSE"]
-dependencies = ["ROOT"]
+# pinned to ROOT version 6.40.0
+dependencies = ["ROOT==0.1a12"]
