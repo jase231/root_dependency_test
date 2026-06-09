@@ -5,5 +5,5 @@ This repository serves to test the ROOT PyPI distribution to function as a depen
 
 # Setup instructions
 - Create and source a virtual environment: `python3 -m venv venv && source venv/bin/activate`
-- From project root, run `pip install .`. ROOT's python distribution should automatically be pulled in via pip.
+- From project root, install the package with `pip install .`
 - To test the demo functionality, run `python3 -m root_dependency_test_jase231.demo`, which should write a rendered histogram image and .root file to disk.
